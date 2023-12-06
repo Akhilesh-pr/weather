@@ -11,7 +11,7 @@ function getWeather(city) {
                             <li><img src="./images/Weather-No-Background.png" alt="" id="img"></li>
                             </div>
                             <div class="col-6">
-                            <p class="text-center" id="temp">${temp}oC</p>
+                            <p class="text-center" id="temp">${temp}°C</p>
 
                             </div>
                             </div>
@@ -23,7 +23,7 @@ function getWeather(city) {
 
 
                                 <li class="list-group-item fs-5">Condition: ${dataArray.weather[0].main}</li>
-                            <li class="list-group-item">Feels like: ${(dataArray.main.feels_like - 32) / 1.8} oC</li>
+                            <li class="list-group-item">Feels like: ${(dataArray.main.feels_like - 32) / 1.8} °C</li>
                             <li class="list-group-item">Pressure: ${dataArray.main.pressure} atm</li>
                             <li class="list-group-item">Humidity: ${dataArray.main.humidity}%</li>
                             </ul>
