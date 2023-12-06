@@ -1,0 +1,34 @@
+body {
+    list-style: none;
+    background-color: #f0f0f0;
+    background-image: url('./images/19796671_e1yh_e7nt_161228.jpg');
+
+}
+
+#weather-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#result {
+    margin-top: 20px;
+}
+#img{
+    height: 50%;
+    width: 50%;
+    margin-top: 5px;
+}
+#city{
+    font-size: larger;
+    font-weight: bolder;
+}
+#temp{
+
+    font-size: xx-large;
+    font-weight:bolder;
+}
